@@ -5,7 +5,7 @@ permissions:
 jobs:
   npm6:
     name: "npm 6"
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v2
@@ -25,7 +25,7 @@ jobs:
         working-directory: npm6
   npm8:
     name: "npm 8"
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v2
